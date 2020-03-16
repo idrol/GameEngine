@@ -1,0 +1,23 @@
+target_sources(Framework
+	PRIVATE
+	Framework.cpp
+	GameStatics.cpp
+	Level.cpp
+	LevelManager.cpp
+	ImguiFramework.cpp
+	Entity/EntityManager.cpp
+	Entity/Entity.cpp
+	Entity/SphereEntity.cpp
+	Entity/ProceduralSkybox.cpp
+	Entity/DirectionalLight.cpp
+	Components/Component.cpp
+	Components/TransformComponent.cpp
+	Components/MeshComponent.cpp
+	Components/LightComponent.cpp
+	Components/RigidBodyComponent.cpp
+	Components/CollisionObjectComponent.cpp
+	Components/CameraComponent.cpp
+	Components/MeshComponents/SphereMeshComponent.cpp
+	Components/MeshComponents/QuadMeshComponent.cpp
+	Components/PhysicsControllers/KinematicPlayerController.cpp
+)

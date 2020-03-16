@@ -1,0 +1,21 @@
+target_sources(UI
+	PRIVATE
+		Canvas.cpp
+		ElementRenderer.cpp
+		Layer.cpp
+		Manager.cpp
+		Mouse.cpp
+		UIShader.cpp
+		Widget.cpp
+		Window.cpp
+		Font/FontManager.cpp
+		Font/FontAtlas.cpp
+		Element/BaseElement.cpp
+		Element/ButtonElement.cpp
+		Element/Element.cpp
+		Element/Label.cpp
+		Element/Panel.cpp
+		Element/ProgressBarElement.cpp
+		Element/ScrollingRegion.cpp
+		Element/TexturedButton.cpp
+)

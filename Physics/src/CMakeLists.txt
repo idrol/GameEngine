@@ -1,0 +1,21 @@
+target_sources(Physics
+        PRIVATE
+            PhysicsEngine.cpp
+            Object/CollisionObject.cpp
+            Object/RigidBody.cpp
+            Object/GhostObject.cpp
+            Object/PairCachingGhostObject.cpp
+            Object/PhysicsSensor.cpp
+            Object/KinematicObject.cpp
+            Shape/Shape.cpp
+            Shape/ConcaveShape.cpp
+            Shape/ConvexShape.cpp
+            Shape/SphereShape.cpp
+            Shape/CapsuleShape.cpp
+            Shape/StaticTriangleMeshShape.cpp
+            Shape/BoxShape.cpp
+            Mesh/TriangleMesh.cpp
+            Callbacks/ResultCallbacks.cpp
+            Controller/KinematicController.cpp
+            Util.cpp
+        )
